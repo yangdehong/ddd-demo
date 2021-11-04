@@ -1,8 +1,8 @@
 package com.ydh.redsheep.web;
 
-import com.ydh.redsheep.application.TransferService;
-import com.ydh.redsheep.domain.exception.DailyLimitExceededException;
-import com.ydh.redsheep.types.common.Result;
+import com.ydh.redsheep.core.common.Result;
+import com.ydh.redsheep.core.common.exception.DailyLimitExceededException;
+import com.ydh.redsheep.core.service.TransferService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
