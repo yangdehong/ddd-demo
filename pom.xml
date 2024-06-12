@@ -19,7 +19,7 @@
         <java.version>1.8</java.version>
         <springboot.version>2.2.6.RELEASE</springboot.version>
         <lombok.version>1.18.16</lombok.version>
-        <mapstruct.version>1.2.0.Final</mapstruct.version>
+        <mapstruct.version>1.6.0.Beta2</mapstruct.version>
     </properties>
 
     <modules>
@@ -37,7 +37,7 @@
             <!--    mapstruct的bean拷贝    -->
             <dependency>
                 <groupId>org.mapstruct</groupId>
-                <artifactId>mapstruct-jdk8</artifactId>
+                <artifactId>mapstruct</artifactId>
                 <version>${mapstruct.version}</version>
             </dependency>
             <dependency>
@@ -45,6 +45,7 @@
                 <artifactId>mapstruct-processor</artifactId>
                 <version>${mapstruct.version}</version>
             </dependency>
+
 
             <dependency>
                 <groupId>org.projectlombok</groupId>

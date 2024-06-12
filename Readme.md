@@ -1,3 +1,9 @@
+Starter
+    --Web
+        --Application
+            --Domain
+                --Infrastructure
+                    --Types
 #### Types 模块
 Types模块是保存可以对外暴露的Domain Primitives的地方。Domain Primitives因为是无状态的逻辑，可以对外暴露，所以经常被包含在对外的API接口中，需要单独成为模块。Types模块不依赖任何类库，纯 POJO 。
 #### Domain 模块
@@ -10,3 +16,5 @@ Infrastructure模块包含了Persistence、Messaging、External等模块。比�
 Web模块包含Controller等相关代码。如果用SpringMVC则需要依赖Spring。
 #### Start模块
 Start模块是SpringBoot的启动类。
+
+
